@@ -1,13 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gerenciador de Tarefas</title>
-    
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar do Mímico</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 20px 0;
+            box-shadow: 0 0 20px #ffcc00;
+        }
+        header img {
+            width: 70%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+            border: 4px solid #ffcc00;
+            border-radius: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ffcc00;
+            text-shadow: 2px 2px #000;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .highlight {
+            color: #ff5733;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #222;
+            border-top: 2px solid #ffcc00;
+            font-size: 0.9em;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="bar_do_mimico.jpg" alt="Bar do Mímico">
+    </header>
+
+    <div class="container">
+        <h1>Bem-vindo ao Bar do Mímico!</h1>
+        <p>Obrigado pela sua experiência no <strong>Bar do Mímico</strong>!</p>
+        <p>Você, cliente amigo, sinta-se à vontade para se divertir como nunca! 😄</p>
+        <p class="highlight">Aproveite a NOITE DA SERESTA com a BANDA TROPICAL e o PAREDÃO INSANO!</p>
+        <p>Estamos te esperando para mais uma noite épica de muita música, diversão e alegria!</p>
+    </div>
+
+    <footer>
+        📍 Endereço: Avenida 7 de Setembro, SN, Bairro: Centro, Palmeirândia - MA. <br>
+        Em frente à Praça da Família. <br>
+        📲 Siga nosso Instagram: <a href="https://www.instagram.com/bar_do_mimico" target="_blank">@bar_do_mimico</a>
+    </footer>
+
+</body>
 </html>
